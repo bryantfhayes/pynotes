@@ -14,7 +14,7 @@ setup(name='pynotes',
       },
       packages=['pynotes'],
       dependency_links=[],
-      install_requires=[],
+      install_requires=['fuzzywuzzy', 'python-Levenshtein'],
       test_suite='nose.collector',
       tests_require=['nose'],
       zip_safe=False)
